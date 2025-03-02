@@ -31,7 +31,7 @@ $('#my-div').on('click', function() {
   - `content` (optional): The content to set as innerHTML.
 - **Returns:** The innerHTML if no argument is provided, otherwise the object itself for chaining.
 
----
+--
 
 `on(event, callback)`
 - **Description:** Attach an event listener to the selected element.
