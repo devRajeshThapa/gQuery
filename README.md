@@ -15,26 +15,10 @@ import $ from 'https://raw.githubusercontent.com/devrajeshthapa/gQuery/main/src/
 ```js
 import $ from 'https://raw.githubusercontent.com/devrajeshthapa/gQuery/main/src/script.js';
 
-// Select an element
-const myDiv = $('#my-div');
-
-// Set HTML content
-myDiv.html('<p>Hello, world!</p>');
-
-// Add a class
-myDiv.addClass('my-class');
-
-// Set CSS properties
-myDiv.css('color', 'red');
-
-// Attach an event listener
-myDiv.on('click', function() {
+// Select an element and attach an event listener
+$('#my-div').on('click', function() {
     alert('Div clicked!');
 });
-
-// Hide the element
-myDiv.hide();
-
-// Show the element
-myDiv.show();
 ```
+
+##  Methods
