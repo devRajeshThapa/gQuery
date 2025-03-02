@@ -25,7 +25,7 @@ $('#my-div').on('click', function() {
 
 ###  Methods
 
-## `html(content)`
+`html(content)`
 - **Description:** Get or set the innerHTML of the selected element.
 - **Arguments:**
   - `content` (optional): The content to set as innerHTML.
@@ -33,7 +33,7 @@ $('#my-div').on('click', function() {
 
 ---
 
-## `on(event, callback)`
+`on(event, callback)`
 - **Description:** Attach an event listener to the selected element.
 - **Arguments:**
   - `event`: The event type (e.g., 'click', 'mouseover').
@@ -42,19 +42,19 @@ $('#my-div').on('click', function() {
 
 ---
 
-## `hide()`
+`hide()`
 - **Description:** Hides the selected element by setting its display property to none.
 - **Returns:** The object itself for chaining.
 
 ---
 
-## `show()`
+`show()`
 - **Description:** Shows the selected element by setting its display property to block.
 - **Returns:** The object itself for chaining.
 
 ---
 
-## `attr(attributeName, value)`
+`attr(attributeName, value)`
 - **Description:** Get or set an attribute of the selected element.
 - **Arguments:**
   - `attributeName`: The name of the attribute.
@@ -63,7 +63,7 @@ $('#my-div').on('click', function() {
 
 ---
 
-## `addClass(className)`
+`addClass(className)`
 - **Description:** Adds a class to the selected element.
 - **Arguments:**
   - `className`: The name of the class to add.
@@ -71,7 +71,7 @@ $('#my-div').on('click', function() {
 
 ---
 
-## `removeClass(className)`
+`removeClass(className)`
 - **Description:** Removes a class from the selected element.
 - **Arguments:**
   - `className`: The name of the class to remove.
@@ -79,7 +79,7 @@ $('#my-div').on('click', function() {
 
 ---
 
-## `toggleClass(className)`
+`toggleClass(className)`
 - **Description:** Toggles a class on the selected element.
 - **Arguments:**
   - `className`: The name of the class to toggle.
@@ -87,7 +87,7 @@ $('#my-div').on('click', function() {
 
 ---
 
-## `css(property, value)`
+`css(property, value)`
 - **Description:** Get or set a CSS property of the selected element.
 - **Arguments:**
   - `property`: The CSS property name (e.g., 'color', 'background-color').
@@ -96,19 +96,19 @@ $('#my-div').on('click', function() {
 
 ---
 
-## `getWidth()`
+`getWidth()`
 - **Description:** Get the width of the selected element (including padding and borders).
 - **Returns:** The width of the element in pixels.
 
 ---
 
-## `getHeight()`
+`getHeight()`
 - **Description:** Get the height of the selected element (including padding and borders).
 - **Returns:** The height of the element in pixels.
 
 ---
 
-## `width(value)`
+`width(value)`
 - **Description:** Get or set the width of the selected element.
 - **Arguments:**
   - `value` (optional): The width value in pixels to set.
@@ -116,7 +116,7 @@ $('#my-div').on('click', function() {
 
 ---
 
-## `height(value)`
+`height(value)`
 - **Description:** Get or set the height of the selected element.
 - **Arguments:**
   - `value` (optional): The height value in pixels to set.
