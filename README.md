@@ -23,4 +23,4 @@ $('#my-div').on('click', function() {
 });
 ```
 
-##  Methods
+###  Methods
