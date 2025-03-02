@@ -31,6 +31,7 @@ $('#my-div').on('click', function() {
   - `content` (optional): The content to set as innerHTML.
 - **Returns:** The innerHTML if no argument is provided, otherwise the object itself for chaining.
 
+<br>
 
 `on(event, callback)`
 - **Description:** Attach an event listener to the selected element.
@@ -39,16 +40,19 @@ $('#my-div').on('click', function() {
   - `callback`: The function to execute when the event is triggered.
 - **Returns:** The object itself for chaining.
 
+<br>
 
 `hide()`
 - **Description:** Hides the selected element by setting its display property to none.
 - **Returns:** The object itself for chaining.
 
+<br>
 
 `show()`
 - **Description:** Shows the selected element by setting its display property to block.
 - **Returns:** The object itself for chaining.
 
+<br>
 
 `attr(attributeName, value)`
 - **Description:** Get or set an attribute of the selected element.
@@ -57,6 +61,7 @@ $('#my-div').on('click', function() {
   - `value` (optional): The value to set for the attribute.
 - **Returns:** The value of the attribute if no value is provided, otherwise the object itself for chaining.
 
+<br>
 
 `addClass(className)`
 - **Description:** Adds a class to the selected element.
@@ -71,6 +76,7 @@ $('#my-div').on('click', function() {
   - `className`: The name of the class to remove.
 - **Returns:** The object itself for chaining.
 
+<br>
 
 `toggleClass(className)`
 - **Description:** Toggles a class on the selected element.
@@ -78,6 +84,7 @@ $('#my-div').on('click', function() {
   - `className`: The name of the class to toggle.
 - **Returns:** The object itself for chaining.
 
+<br>
 
 `css(property, value)`
 - **Description:** Get or set a CSS property of the selected element.
@@ -86,6 +93,7 @@ $('#my-div').on('click', function() {
   - `value` (optional): The value to set for the CSS property.
 - **Returns:** The value of the CSS property if no value is provided, otherwise the object itself for chaining.
 
+<br>
 
 `getWidth()`
 - **Description:** Get the width of the selected element (including padding and borders).
@@ -96,6 +104,7 @@ $('#my-div').on('click', function() {
 - **Description:** Get the height of the selected element (including padding and borders).
 - **Returns:** The height of the element in pixels.
 
+<br>
 
 `width(value)`
 - **Description:** Get or set the width of the selected element.
@@ -103,6 +112,7 @@ $('#my-div').on('click', function() {
   - `value` (optional): The width value in pixels to set.
 - **Returns:** The width of the element in pixels if no value is provided, otherwise the object itself for chaining.
 
+<br>
 
 `height(value)`
 - **Description:** Get or set the height of the selected element.
