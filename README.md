@@ -1,6 +1,6 @@
 # gQuery
 
-This is a lightweight utility library that provides a jQuery-like API. This library is designed to be easy to use and chainable, much like jQuery.
+This lightweight JavaScript utility library offers insight into the underlying implementation of jQuery, providing a closer look at how it works under the hood.
 
 ## Getting Started
 
