@@ -12,7 +12,7 @@ To use this, simply import the library into your JavaScript file.
 import $ from 'https://raw.githubusercontent.com/devrajeshthapa/gQuery/main/src/script.js';
 ```
 
-## Example Usage
+### Example Usage
 
 ```js
 import $ from 'https://raw.githubusercontent.com/devrajeshthapa/gQuery/main/src/script.js';
@@ -23,7 +23,7 @@ $('#my-div').on('click', function() {
 });
 ```
 
-##  Methods
+###  Methods
 
 `html(content)`
 - **Description:** Get or set the innerHTML of the selected element.
